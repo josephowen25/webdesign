@@ -1,0 +1,93 @@
+nav
+{
+    background-color: lightblue;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: lightblue;
+    display: inline;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav
+{
+    padding: 5px;
+}
+
+nav ul li
+{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+nav ul li:hover
+{
+    background-color: darkblue;
+}
+
+header
+{
+    background-color: azure;
+    padding: 10px;
+    color: blue;
+}
+
+footer
+{
+   padding: 0;
+    margin: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+footer p 
+{
+    color: white;
+    text-align: center;
+}
+#active 
+{
+    border-color: darkblue;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    border: 1px solid aqua;
+    background-color: azure;
+}
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 4px;
+    color: cadetblue;
+}
+
+p{
+    margin: 0;
+    padding-bottom: .5em;
+    color: mediumaquamarine
+}
+background{
+    color: azure;
+}
