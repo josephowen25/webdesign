@@ -1,0 +1,180 @@
+nav
+{
+    background-color: lightblue;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: lightblue;
+    display: inline;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav
+{
+    padding: 5px;
+}
+
+nav ul li
+{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+nav ul li:hover
+{
+    background-color: darkblue;
+}
+
+header
+{
+    background-image: url(../Images/Surfing-in-Strandhill-806x491.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    background-color: azure;
+    padding: 10px;
+    color: blue;
+    
+}
+
+
+footer
+{
+   padding: 0;
+    margin: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+footer ul li
+{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    
+}
+
+footer p 
+{
+    color: white;
+    text-align: center;
+}
+#active 
+{
+    border-color: darkblue;
+    background-color: aquamarine;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    
+    background-color: white;
+}
+h2,h3,h4 {
+    margin: 0;
+    padding: 4px;
+    color: cadetblue;
+}
+h1
+{
+    margin: 0;
+    padding: 4px;
+    color: azure;
+}
+p{
+    margin: 0;
+    padding-bottom: .5em;
+    color: mediumaquamarine
+}
+background{
+    color: azure;
+}
+
+a
+{
+    font-size: 75%;
+    color: cadetblue;
+    
+}
+.mainImage {
+    width: 35%;
+    height: 35%;
+    border: 2px azure solid;
+    padding: 5px;
+}
+
+.map {
+    border: 0; float: left; margin-bottom: 100px;
+}
+
+#SS_logo {
+    height: 100PX;
+    width: 150PX;
+}
+
+.col.detail {
+    column-count: 1;
+    column-rule: 1px solid aqua;
+    column-gap: 50px;
+    padding: 2px;
+    column-width: 150%;
+    border: 1px solid aqua;
+}
+
+iframe {
+    border: 1px solid azure;
+}
+
+table {
+    border: 1px solid aqua;
+    color: mediumaquamarine;
+    border-collapse: collapse;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+th,td
+{
+    border: 1px solid aqua;
+    padding: .2em .7em;
+    text-align: right;
+}
+th.left, td.left
+{
+    text-align: left;
+}
+thead
+{
+    background-color: azure
+}
+
+.video {
+    width="560";
+    height="315";
+    float: right; 
+    padding-right: 100px;
+    padding-bottom: 110px;
+}
